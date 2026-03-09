@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #d8d8d8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background: white;
+    padding:40px;
+    width:450px;
+}
+
+.header-content {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.logo {
+    display: block;
+    max-width: 80px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+    box-shadow: #aaa9a9 0px 4px 8px;
+    border-radius: 100%;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.input-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #3a3838;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 30px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+.remember-me input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.forgot-link {
+    text-decoration: none;
+    color: #888;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forgot-link:hover {
+    color: #333;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 14px;
+    background-color: #3a3838;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
